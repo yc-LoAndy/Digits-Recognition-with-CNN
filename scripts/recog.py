@@ -13,7 +13,7 @@ imgproc = ImgProcessor(
         imgpath = f"{PROJPATH}/scripts/pic/digits/original_digits.jpg",
         crop = None
     )
-imgproc.convert(outdir=f"{PROJPATH}/scripts/pic/digits/", outsize=INPUTSZ, thickness=10)
+imgproc.convert(outdir=f"{PROJPATH}/scripts/pic/digits/", outsize=INPUTSZ)
 
 i = 0
 digits = torch.tensor([])

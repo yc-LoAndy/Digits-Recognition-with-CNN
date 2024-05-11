@@ -1,5 +1,6 @@
-# created by virtualenv automatically
 bin/
 lib/
 scripts/MNIST/
 share/
+.vscode/
+scripts/__pycache__/

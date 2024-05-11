@@ -78,8 +78,8 @@ def test(net: nn.Module, test_loader: DataLoader, loss_func) -> None:
 
 def main() -> None:
     net = Net()
-    pretrained_params = torch.load("/home/yclo/pyproj/practice/scripts/model/encoder_state_dict.pth")
-    net.load_state_dict(pretrained_params, strict=False)
+    # pretrained_params = torch.load("/home/yclo/pyproj/practice/scripts/model/encoder_state_dict.pth")
+    # net.load_state_dict(pretrained_params, strict=False)
 
     # Training Phase
     train_loader = DataLoader(
